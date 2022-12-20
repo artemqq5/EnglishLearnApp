@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/labelText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/textDefault"
+            android:textSize="24sp"
+            tools:text="Present Simple" />
+
+        <TextView
+            android:id="@+id/shortDescText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textSize="14sp"
+            android:textColor="@color/textLight"
+            tools:text="the first tense of english tenses. You just need to see how it works and read again for yourself." />
+
+        <TextView
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:gravity="right|center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/textDefault"
+            android:text="@string/show_more_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
