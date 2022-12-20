@@ -10,4 +10,4 @@ Uses of technology:
 - R8 (Obfuscator)
 - Clean Architecture
 
- <img src="https://user-images.githubusercontent.com/52855607/208784210-d497cb00-b1d8-4959-93ed-26001fcf16ca.png" width="250"> <img src="https://user-images.githubusercontent.com/52855607/208784215-84769828-0cb5-492a-93a5-5b02d4055f9d.png" width="250">
+ <img src="https://user-images.githubusercontent.com/52855607/208784215-84769828-0cb5-492a-93a5-5b02d4055f9d.png" width="250"> <img src="https://user-images.githubusercontent.com/52855607/208784210-d497cb00-b1d8-4959-93ed-26001fcf16ca.png" width="250"> 
